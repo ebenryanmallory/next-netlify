@@ -10,7 +10,8 @@ export default function Home() {
 
       <main>
         <p className="description">
-          Hello!!!
+        <a href="/server">Server</a>
+        <a href="/page">Page</a>
         </p>
       </main>
 
