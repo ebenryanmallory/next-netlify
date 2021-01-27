@@ -1,7 +1,9 @@
 import Head from 'next/head'
 
 function Page({ userId, id, title, completed }) {
-    return (
+  if (completed === false) { completed = "not finished" };
+  if (completed === true) { completed = "finished" };
+  return (
         <div className="container">
           <Head>
             <title>Next.js Starter!</title>
